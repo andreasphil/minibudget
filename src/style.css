@@ -1,0 +1,45 @@
+:root {
+  --article-padding-x: 1rem;
+  --article-padding-y: 1rem;
+  --body-padding-y: 2rem;
+  --tint: 187;
+
+  --border-width-large: calc(var(--border-width) * 2);
+  --c-danger: hsl(10 100% 59%);
+  --c-danger-focus: hsl(10 100% 59% / 0.3);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-surface-bg: hsl(var(--tint) 12% 7%);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  text-transform: capitalize;
+}
+
+/* TODO: Migrate */
+/* TODO: Transition opacity and grayscale */
+button:disabled {
+  filter: grayscale();
+}
+
+/* TODO: Migrate */
+/* TODO: Transition opacity and grayscale */
+select:disabled {
+  cursor: not-allowed;
+  opacity: var(--disabled-opacity);
+  filter: grayscale();
+}
+
+input:not(:focus):invalid {
+  --input-border-color: var(--c-danger);
+  --input-focus-color: var(--c-danger-focus);
+}
