@@ -40,6 +40,6 @@ Deployment to Netlify is configured in the [netlify.toml file](netlify.toml) and
 Apart from the open source packages listed in [package.json](package.json), Minibudget uses:
 
 - Icons from [Simple Icons](https://simpleicons.org)
-- Favicons generated with [favicon.io](https://favicon.io)
+- Favicons generated with [IconKitchen](https://icon.kitchen/)
 
 Thanks 🙏
