@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <strong>Minimal expense tracking that helps you to see how much money you have left to spend this month</strong>
+  <strong>Minimal expense tracking that helps you see how much money you have left to spend this month</strong>
 </p>
 
 <p align="center">
@@ -12,11 +12,11 @@
   </a>
 </p>
 
-Minibudget is super simple expense tracking for people who don't want to mess with categories, charts and compliacted data entry, but still like to have an idea of where their money is going and whether they're overspending. It works like this:
+Minibudget is super simple expense tracking for people who don't want to mess with categories, charts and complicated data entry, but still like to have an idea of where their money is going and whether they're overspending. It works like this:
 
 1. ✅ Set a budget
 2. 🧾 Enter expenses
-3. 👍 Minibudget calculates how much you've spend and how much you have left.
+3. 👍 Minibudget calculates how much you've spent and how much you have left.
 4. 🔄 After a certain time period (e.g. at the end of each month), press "Reset" to clear all expenses and start with a fresh budget.
 
 All data is kept locally and never leaves your browser.
